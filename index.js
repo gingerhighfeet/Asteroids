@@ -210,7 +210,7 @@ const keys = {
 
 const SPEED = 3;
 const ROTATIONAL_SPEED = 0.05;
-const FRICTION = 0.97;
+const FRICTION = 0.99;
 const PROJECTILE_SPEED = 3;
 
 const projectiles = [];
