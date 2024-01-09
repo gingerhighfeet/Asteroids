@@ -24,7 +24,7 @@ function showPopup(title, content) {
 }
 let gameStarted = false;
 
-if (!gameStarted) {showPopup('Asteroid Game Controls', '- Turn Right: D\n- Turn Left: A\n- Move Forward: W');}
+if (!gameStarted) {showPopup('Asteroid Game Controls', '- Turn Right: D\n- Turn Left: A\n- Move Forward: W- Shoot: Space');}
 
 window.addEventListener('keydown', (event) => {
     if (event.code === 'Enter' && !gameStarted) {
@@ -210,7 +210,7 @@ const keys = {
 
 const SPEED = 3;
 const ROTATIONAL_SPEED = 0.05;
-const FRICTION = 0.99;
+const FRICTION = 0.95;
 const PROJECTILE_SPEED = 3;
 
 const projectiles = [];
